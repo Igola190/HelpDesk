@@ -1,0 +1,73 @@
+audio{
+    display: none;
+}
+
+img	{
+    width: 10%;
+    border-radius: 50%;
+}
+
+/* MENU */
+
+menu{
+    display: flex;
+    list-style: none;
+    padding: 3%;
+    width: 1410px;
+}
+
+li{
+    flex-grow: 1;
+    list-style: none;
+    text-align: center;
+}
+
+/* HOME */
+
+.Home{
+    text-align: center;
+    color: white;
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.Amenu{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.Homeh2{
+    text-transform: uppercase;
+}
+
+/* BENEFINIOS */
+
+.Abenef{
+    width: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.libnef{
+    text-align: center;
+}
+
+.ulbenef{
+    text-align: center;
+}
+
+.test{
+    text-align: center;
+}
+
+/* FORMULARIO */
+
+.formSimu{
+    text-align: left;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 20px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>HelpDesk</title>
+</head>
+<body class="Home">
+  <audio controls autoplay>
+  <source src="sound/touch.mpeg" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <menu>        
+      <li>
+        <a class="Amenu" href="index.html">HOME</a>
+      </li>
+      <li>
+        <a class="Amenu" href="beneficios.html">BENEFICIOS</a>
+      </li>
+      <li>
+        <a class="Amenu" href="about.html">O QUE É</a>
+      </li>
+      <li>
+        <a class="Amenu" href="simulado.html">SIMULAÇÃO</a>
+      </li>
+      <li>
+        <a class="Amenu" href="team.html">SOBRE NÓS</a>
+      </li>
+  </menu>
+
+  <h1>SIMULAÇÃO</h1>
+
+  <br><br><br>
+
+  <form class="formSimu" action="recebido.html">
+    <p>
+      <label for="fname">Nome:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Sobrenome:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="lname">E-mail:</label><br>
+      <input type="text" id="lname" name="lname">
+    </p>
+
+    <p>
+      <label for="lname">Em qual apararelho apresente o problema:</label><br>
+      <input type="radio" id="DeskTop" name="DeskTop" value="DeskTop">
+      <label for="DeskTop">DeskTop</label><br>
+      <input type="radio" id="Notebook" name="Notebook" value="Notebook">
+      <label for="Notebook">Notebook</label><br>
+      <input type="radio" id="Celular" name="Celular" value="Celular">
+      <label for="Celular">Celular</label>
+    </p>
+
+    <p>
+      <label for="lname">Selecione qual(s) problema(s) esta acontecendo:</label><br>
+      <input type="checkbox" id="telaAzul" name="telaAzul" value="telaAzul">
+      <label for="vehicle1">Tela Azul</label><br>
+      <input type="checkbox" id="semInternet" name="semInternet" value="semInternet">
+      <label for="vehicle2">Sem internet</label><br>
+      <input type="checkbox" id="travando" name="travando" value="travando">
+      <label for="vehicle3">Travando</label><br>
+      <input type="checkbox" id="naoLiga" name="naoLiga" value="naoLiga">
+      <label for="vehicle3">Não Liga</label>
+    </p>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <br><br><br><br><br><br>
+
+    
+</body>
+</html>
